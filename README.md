@@ -2,7 +2,7 @@ This was made for ROBLOX i really just dont want to retype this exact same modul
 
 **How to use bro**
 
-```
+```lua
 local map = require(script.map) ---require module
 
 local m = map.new(16,16,0) ---create new map (width,height,default value)
@@ -23,7 +23,7 @@ print(m:get(32,32))
 
 **take a look inside bro**
 
-```
+```lua
 local module = {}
 module.__index = module
 
